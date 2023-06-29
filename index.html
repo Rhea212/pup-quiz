@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <link rel="favicon" href="favicon.ico" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta charset="utf-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+    <title>Pup Quiz: Breeds Edition</title>
+    
+    <link rel="stylesheet" href="/assets/styles.css" />
+    <script type="module" src="/assets/quiz.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <h1>Guess the Doggo!</h1>
+      <p>What breed is the dog in this image?</p>
+      <p id="score">Score: <span id="correct"></span> / <span id="complete"></span></p>
+    </header>
+
+    <main>
+      
+      <div id="image-frame"></div>
+      <div id="options"></div>
+      <div id="end-note" class="hidden">Yay! You completed the quiz!</div>
+      <button id="next-option" class="hidden"></button>
+    </main>
+  </body>
+</html>
